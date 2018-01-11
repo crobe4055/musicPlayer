@@ -1,0 +1,61 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <audio id="song1" class="myAudio" src="song1.mp3" ></audio>
+    <audio id="song2" class="myAudio" src="song2.mp3" ></audio>
+    <audio id="song3" class="myAudio" src="song3.mp3" ></audio>
+    <audio id="song4" class="myAudio" src="song4.mp3" ></audio>
+
+</div>
+
+
+
+    <h4 id="songPlaying">What's Playing: </h4>
+
+    <div id="turntable">
+
+    	<div id="timebox">
+    	
+    		<span id="currentTime">00:00</span> / <span id="durationTime">00:00</span>
+
+    		<div id="button">
+		<div mediaButtons>
+    
+   	<div class="buttons">
+    <input type="button" value="First Song" onclick="playSong.PlaySound('song1')">
+    
+    <input type="button" value="Second Song" onclick="playSong.PlaySound('song2')">
+    
+    <input type="button" value="Third Song" onclick="playSong.PlaySound('song3')">
+    
+    <input type="button" value="Fourth Song" onclick="playSong.PlaySound('song4')">
+    </div>
+
+    <input type="image" src="play.png" onclick="playButton.PlayButton()" width="20" height="20">
+
+    <input type="image" src="pause.png" onclick="pauseSong.PauseSound('song1'), pauseSong.PauseSound('song2'),pauseSong.PauseSound('song3'), pauseSong.PauseSound('song4')" width="20" height="20">
+    
+    <input type="image" src="mute.png" onclick="muteSong.MuteSong('song1'), muteSong.MuteSong('song2'),muteSong.MuteSong('song3'),muteSong.MuteSong('song4')" width="20" height="20">
+    
+    <input type="image" src="unmute.png" " onclick="unmuteSong.UnmuteSong('song1'), unmuteSong.UnmuteSong('song2'), unmuteSong.UnmuteSong('song3'), unmuteSong.UnmuteSong('song4')" width="20" height="20">
+    
+    <input type="image" src="reset.png" onclick="resetSong.Reset('song1'), resetSong.Reset('song2'), resetSong.Reset('song3'), resetSong.Reset('song4')" width="20" height="20">
+    
+    <input type="image" src="fastfoward.png" onclick="playFastFoward.PlayFastFoward('song1'), playFastFoward.PlayFastFoward('song2'),playFastFoward.PlayFastFoward('song3'),playFastFoward.PlayFastFoward('song4')" width="20" height="20">
+    
+    <input type="image" src="rewind.png" onclick="playRewind.PlayRewind('song1'), playRewind.PlayRewind('song2'), playRewind.PlayRewind('song3'), playRewind.PlayRewind('song4')" width="20" height="20">
+    	</div>
+    </div>
+
+</div>
+    <script src="javascript.js"></script>
+</body>
+
+</html>

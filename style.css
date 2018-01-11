@@ -1,0 +1,45 @@
+#songPlaying {}
+
+.buttons input{
+	color: white;
+	background: linear-gradient(grey, black);
+	font-weight: bold;
+	border: 5px;
+	padding: 5px;
+}
+
+body{
+	background: linear-gradient(grey, black);
+}
+
+#button{
+	background: #E80B0B;
+	padding-bottom: 10px;
+	margin-top: 516px;
+
+}
+
+#turntable {
+
+    border-style: solid;
+    border-color: black;
+    background-image: url('SongPaused.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+	  
+    
+}
+
+#timebox {
+   height: 40px;
+    width: 600px;
+    background: #E80B0B;
+    text-align: center;
+    color: black;
+   font-size: 30px;
+   font-weight: bold;
+   font-family: verdana;
+}
