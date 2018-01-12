@@ -6,24 +6,28 @@
 	font-weight: bold;
 	border: 5px;
 	padding: 5px;
+
+
 }
+
 
 
 body{
-	background: linear-gradient(grey, black);
+  background: linear-gradient(darkred, black);
 }
 
 #button{
-	background: #E80B0B;
+	background: #800020;
 	padding-bottom: 15px;
-	margin-top: 510px;
+	margin-top: 472px;
 
 }
 
 #turntable {
-
+    border: 5px;
     border-style: solid;
     border-color: black;
+    border-radius: 5px;
     background-image: url('SongPaused.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +41,7 @@ body{
 #timebox {
    height: 40px;
     width: 600px;
-    background: #E80B0B;
+    background: #800020;
     text-align: center;
     color: black;
    font-size: 30px;
