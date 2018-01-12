@@ -49,3 +49,11 @@ body{
    font-family: verdana;
    padding-bottom: 10px;
 }
+
+input:hover{
+  opacity: 0.7;
+}
+
+h4{
+  font-family: verdana;
+}
