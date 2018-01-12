@@ -8,10 +8,8 @@
 
 <body>
 
-    <audio id="song1" class="myAudio" src="song1.mp3" ></audio>
-    <audio id="song2" class="myAudio" src="song2.mp3" ></audio>
-    <audio id="song3" class="myAudio" src="song3.mp3" ></audio>
-    <audio id="song4" class="myAudio" src="song4.mp3" ></audio>
+    <audio id="song" class="myAudio" src="" ></audio>
+   
 
 </div>
 
@@ -29,13 +27,13 @@
 		<div mediaButtons>
     
    	<div class="buttons">
-    <input type="button" value="First Song" onclick="playSong.PlaySound('song1')">
+    <input type="button" value="First Song" onclick="playSong.PlaySound(0)">
     
-    <input type="button" value="Second Song" onclick="playSong.PlaySound('song2')">
+    <input type="button" value="Second Song" onclick="playSong.PlaySound(1)">
     
-    <input type="button" value="Third Song" onclick="playSong.PlaySound('song3')">
+    <input type="button" value="Third Song" onclick="playSong.PlaySound(2)">
     
-    <input type="button" value="Fourth Song" onclick="playSong.PlaySound('song4')">
+    <input type="button" value="Fourth Song" onclick="playSong.PlaySound(3)">
     </div>
 
     <input type="image" src="play.png" onclick="playButton.PlayButton()" width="20" height="20">
